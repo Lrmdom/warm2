@@ -1,0 +1,28 @@
+[09-Jul-2014 14:22:52 UTC] PHP Warning:  include_once(templates/base.php): failed to open stream: No such file or directory in /home/dev/public_html/dev/warmrental/raw/google-api-php-client/examples/index.php on line 2
+[09-Jul-2014 14:22:52 UTC] PHP Warning:  include_once(): Failed opening 'templates/base.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dev/public_html/dev/warmrental/raw/google-api-php-client/examples/index.php on line 2
+[09-Jul-2014 14:22:52 UTC] PHP Fatal error:  Call to undefined function isWebRequest() in /home/dev/public_html/dev/warmrental/raw/google-api-php-client/examples/index.php on line 3
+[09-Jul-2014 14:22:55 UTC] PHP Warning:  include_once(templates/base.php): failed to open stream: No such file or directory in /home/dev/public_html/dev/warmrental/raw/google-api-php-client/examples/index.php on line 2
+[09-Jul-2014 14:22:55 UTC] PHP Warning:  include_once(): Failed opening 'templates/base.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dev/public_html/dev/warmrental/raw/google-api-php-client/examples/index.php on line 2
+[09-Jul-2014 14:22:55 UTC] PHP Fatal error:  Call to undefined function isWebRequest() in /home/dev/public_html/dev/warmrental/raw/google-api-php-client/examples/index.php on line 3
+[09-Jul-2014 14:22:55 UTC] PHP Warning:  include_once(templates/base.php): failed to open stream: No such file or directory in /home/dev/public_html/dev/warmrental/raw/google-api-php-client/examples/index.php on line 2
+[09-Jul-2014 14:22:55 UTC] PHP Warning:  include_once(): Failed opening 'templates/base.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dev/public_html/dev/warmrental/raw/google-api-php-client/examples/index.php on line 2
+[09-Jul-2014 14:22:55 UTC] PHP Fatal error:  Call to undefined function isWebRequest() in /home/dev/public_html/dev/warmrental/raw/google-api-php-client/examples/index.php on line 3
+[09-Jul-2014 14:27:24 UTC] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/books/v1/volumes?q=Henry+David+Thoreau&filter=free-ebooks&key=%3CYOUR_API_KEY%3E: (400) Bad Request' in /home/dev/public_html/dev/warmrental/raw/google-api-php-client/src/Google/Http/REST.php:79
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/raw/google-api-php-client/src/Google/Http/REST.php(44): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request))
+#1 /home/dev/public_html/dev/warmrental/raw/google-api-php-client/src/Google/Client.php(499): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/dev/public_html/dev/warmrental/raw/google-api-php-client/src/Google/Service/Resource.php(195): Google_Client->execute(Object(Google_Http_Request))
+#3 /home/dev/public_html/dev/warmrental/raw/google-api-php-client/src/Google/Service/Books.php(2304): Google_Service_Resource->call('list', Array, 'Google_Service_...')
+#4 /home/dev/public_html/dev/warmrental/raw/google-a in /home/dev/public_html/dev/warmrental/raw/google-api-php-client/src/Google/Http/REST.php on line 79
+[09-Jul-2014 20:01:30 UTC] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/youtube/v3/channels?part=contentDetails&mine=true: (403) Access Not Configured. Please use Google Developers Console to activate the API for your project.' in /home/dev/public_html/dev/warmrental/raw/google-api-php-client/src/Google/Http/REST.php:79
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/raw/google-api-php-client/src/Google/Http/REST.php(44): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request))
+#1 /home/dev/public_html/dev/warmrental/raw/google-api-php-client/src/Google/Client.php(499): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/dev/public_html/dev/warmrental/raw/google-api-php-client/src/Google/Service/Resource.php(195): Google_Client->execute(Object(Google_Http_Request))
+#3 /home/dev/public_html/dev/warmrental/raw/google-api-php-client/src/Google/Service/YouTube.php(1640): Google_Service_Resource->call('list', Array, 'Google_Service_. in /home/dev/public_html/dev/warmrental/raw/google-api-php-client/src/Google/Http/REST.php on line 79
+[09-Jul-2014 20:01:33 UTC] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/youtube/v3/channels?part=contentDetails&mine=true: (403) Access Not Configured. Please use Google Developers Console to activate the API for your project.' in /home/dev/public_html/dev/warmrental/raw/google-api-php-client/src/Google/Http/REST.php:79
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/raw/google-api-php-client/src/Google/Http/REST.php(44): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request))
+#1 /home/dev/public_html/dev/warmrental/raw/google-api-php-client/src/Google/Client.php(499): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/dev/public_html/dev/warmrental/raw/google-api-php-client/src/Google/Service/Resource.php(195): Google_Client->execute(Object(Google_Http_Request))
+#3 /home/dev/public_html/dev/warmrental/raw/google-api-php-client/src/Google/Service/YouTube.php(1640): Google_Service_Resource->call('list', Array, 'Google_Service_. in /home/dev/public_html/dev/warmrental/raw/google-api-php-client/src/Google/Http/REST.php on line 79

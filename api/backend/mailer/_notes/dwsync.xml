@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="template.html" server="componto.pt//dev/warmrental/" local="130631581730692338" remote="130631581200000000" Dst="1" />
+<file name="PHPMailerAutoload.php" server="componto.pt//dev/warmrental/" local="130631567535751576" remote="130631588400000000" Dst="1" />
+<file name=".gitignore" server="componto.pt//dev/warmrental/" local="130631567526950584" remote="130631604600000000" Dst="1" />
+<file name=".scrutinizer.yml" server="componto.pt//dev/warmrental/" local="130631567527140507" remote="130631604600000000" Dst="1" />
+<file name=".travis.yml" server="componto.pt//dev/warmrental/" local="130631567527240544" remote="130631604600000000" Dst="1" />
+<file name="changelog.md" server="componto.pt//dev/warmrental/" local="130631567527320486" remote="130631604600000000" Dst="1" />
+<file name="class.pop3.php" server="componto.pt//dev/warmrental/" local="130631567527550604" remote="130631604600000000" Dst="1" />
+<file name="class.smtp.php" server="componto.pt//dev/warmrental/" local="130631567527660579" remote="130631604600000000" Dst="1" />
+<file name="class.phpmailer.php" server="componto.pt//dev/warmrental/" local="130631567527430502" remote="130631604600000000" Dst="1" />
+<file name="composer.json" server="componto.pt//dev/warmrental/" local="130631567527800604" remote="130631604600000000" Dst="1" />
+<file name="LICENSE" server="componto.pt//dev/warmrental/" local="130631567535631912" remote="130631604600000000" Dst="1" />
+<file name="README.md" server="componto.pt//dev/warmrental/" local="130631567535962440" remote="130631604600000000" Dst="1" />
+<file name="travis.phpunit.xml.dist" server="componto.pt//dev/warmrental/" local="130631567537481945" remote="130631604600000000" Dst="1" />
+</dwsync>

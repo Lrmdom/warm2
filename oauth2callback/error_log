@@ -1,0 +1,229 @@
+[09-Jul-2014 21:04:36 UTC] PHP Fatal error:  Call to a member function authenticate() on a non-object in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 17
+[09-Jul-2014 21:05:04 UTC] PHP Fatal error:  Call to a member function authenticate() on a non-object in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 17
+[09-Jul-2014 21:05:05 UTC] PHP Fatal error:  Call to a member function authenticate() on a non-object in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 17
+[09-Jul-2014 21:05:50 UTC] PHP Fatal error:  Call to a member function authenticate() on a non-object in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 18
+[09-Jul-2014 21:05:51 UTC] PHP Fatal error:  Call to a member function authenticate() on a non-object in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 18
+[09-Jul-2014 21:05:52 UTC] PHP Fatal error:  Call to a member function authenticate() on a non-object in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 18
+[09-Jul-2014 21:05:52 UTC] PHP Fatal error:  Call to a member function authenticate() on a non-object in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 18
+[09-Jul-2014 21:06:07 UTC] PHP Fatal error:  Call to a member function authenticate() on a non-object in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 18
+[09-Jul-2014 21:06:08 UTC] PHP Fatal error:  Call to a member function authenticate() on a non-object in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 18
+[09-Jul-2014 21:06:08 UTC] PHP Fatal error:  Call to a member function authenticate() on a non-object in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 18
+[09-Jul-2014 21:06:08 UTC] PHP Fatal error:  Call to a member function authenticate() on a non-object in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 18
+[09-Jul-2014 21:42:49 UTC] PHP Notice:  Undefined variable: client in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 12
+[09-Jul-2014 21:42:54 UTC] PHP Notice:  Undefined variable: client in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 12
+[09-Jul-2014 21:51:52 UTC] PHP Warning:  require_once(Google/Auth/AssertionCredentials.php): failed to open stream: No such file or directory in /home/dev/public_html/dev/warmrental/src/Google/Client.php on line 20
+[09-Jul-2014 21:51:52 UTC] PHP Fatal error:  require_once(): Failed opening required 'Google/Auth/AssertionCredentials.php' (include_path='src/:.:/usr/lib/php:/usr/local/lib/php') in /home/dev/public_html/dev/warmrental/src/Google/Client.php on line 20
+[09-Jul-2014 21:59:41 UTC] PHP Catchable fatal error:  Object of class Google_Client could not be converted to string in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 36
+[09-Jul-2014 22:02:09 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/cCJ8mvanB47u4...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(22): Google_Client->authenticate('4/cCJ8mvanB47u4...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[09-Jul-2014 22:02:13 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/cCJ8mvanB47u4...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(22): Google_Client->authenticate('4/cCJ8mvanB47u4...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[09-Jul-2014 22:02:21 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/cCJ8mvanB47u4...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(22): Google_Client->authenticate('4/cCJ8mvanB47u4...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[09-Jul-2014 22:02:23 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/cCJ8mvanB47u4...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(22): Google_Client->authenticate('4/cCJ8mvanB47u4...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[09-Jul-2014 22:02:24 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/cCJ8mvanB47u4...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(22): Google_Client->authenticate('4/cCJ8mvanB47u4...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[09-Jul-2014 22:58:36 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/tOHTIEBxiK4ig...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(21): Google_Client->authenticate('4/tOHTIEBxiK4ig...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[09-Jul-2014 23:05:04 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/YS822g3qVSAab...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(21): Google_Client->authenticate('4/YS822g3qVSAab...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 14:41:39 UTC] PHP Notice:  Undefined variable: client in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 36
+[12-Jul-2014 14:41:39 UTC] PHP Fatal error:  Call to a member function authenticate() on a non-object in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 36
+[12-Jul-2014 14:42:09 UTC] PHP Fatal error:  Call to a member function authenticate() on a non-object in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 36
+[12-Jul-2014 14:42:34 UTC] PHP Fatal error:  Call to a member function authenticate() on a non-object in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 36
+[12-Jul-2014 14:42:48 UTC] PHP Fatal error:  Call to a member function authenticate() on a non-object in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 36
+[12-Jul-2014 14:42:52 UTC] PHP Fatal error:  Call to a member function authenticate() on a non-object in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 36
+[12-Jul-2014 20:19:26 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/kxqrI6im_ztH_...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(30): Google_Client->authenticate('4/kxqrI6im_ztH_...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 22:19:35 UTC] PHP Warning:  Illegal string offset 'refreshToken' in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 33
+[12-Jul-2014 22:19:51 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/M144kis1dVrfG...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(31): Google_Client->authenticate('4/M144kis1dVrfG...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 22:20:16 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/M144kis1dVrfG...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(31): Google_Client->authenticate('4/M144kis1dVrfG...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 22:20:24 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/M144kis1dVrfG...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(31): Google_Client->authenticate('4/M144kis1dVrfG...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 22:21:09 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/4_v1uX5VGtVI3...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(31): Google_Client->authenticate('4/4_v1uX5VGtVI3...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 22:21:15 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/4_v1uX5VGtVI3...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(31): Google_Client->authenticate('4/4_v1uX5VGtVI3...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 22:21:22 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/4_v1uX5VGtVI3...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(31): Google_Client->authenticate('4/4_v1uX5VGtVI3...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 22:22:12 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/4_v1uX5VGtVI3...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(32): Google_Client->authenticate('4/4_v1uX5VGtVI3...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 22:22:25 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/ztCTkWInsgHEZ...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(32): Google_Client->authenticate('4/ztCTkWInsgHEZ...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 22:22:30 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/ztCTkWInsgHEZ...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(32): Google_Client->authenticate('4/ztCTkWInsgHEZ...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 22:23:23 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/srt33bnkHWzh9...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(31): Google_Client->authenticate('4/srt33bnkHWzh9...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 22:23:27 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/bwZ--adeC1an-...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(31): Google_Client->authenticate('4/bwZ--adeC1an-...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 22:36:42 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/NADUZDc0jVxLp...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(31): Google_Client->authenticate('4/NADUZDc0jVxLp...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 22:36:48 UTC] PHP Warning:  Illegal string offset 'refresh_token' in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 33
+[12-Jul-2014 22:36:48 UTC] PHP Notice:  Undefined index: user_id in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 33
+[12-Jul-2014 22:39:01 UTC] PHP Warning:  Illegal string offset 'refresh_token' in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 35
+[12-Jul-2014 22:39:01 UTC] PHP Notice:  Undefined index: user_id in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 35
+[12-Jul-2014 22:39:55 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/_1KNiPmIqSSbX...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(31): Google_Client->authenticate('4/_1KNiPmIqSSbX...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 22:39:59 UTC] PHP Notice:  Undefined index: user_id in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 35
+[12-Jul-2014 22:40:49 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/YVtHjcpkUj-sv...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(31): Google_Client->authenticate('4/YVtHjcpkUj-sv...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 22:43:29 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/D_PuVk73kC2_M...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(31): Google_Client->authenticate('4/D_PuVk73kC2_M...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 22:43:37 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 37
+[12-Jul-2014 22:46:22 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/mBguM-FRe2u93...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(33): Google_Client->authenticate('4/mBguM-FRe2u93...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 22:46:28 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/mBguM-FRe2u93...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(33): Google_Client->authenticate('4/mBguM-FRe2u93...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 22:46:29 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/wI0pjTz4Z5uaf...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(33): Google_Client->authenticate('4/wI0pjTz4Z5uaf...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 22:47:56 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/aLfASTzBs8mLt...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(33): Google_Client->authenticate('4/aLfASTzBs8mLt...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 22:48:26 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/2hn2F3sa-weyo...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(33): Google_Client->authenticate('4/2hn2F3sa-weyo...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 22:48:35 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/2hn2F3sa-weyo...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(33): Google_Client->authenticate('4/2hn2F3sa-weyo...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 22:50:09 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/2hn2F3sa-weyo...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(33): Google_Client->authenticate('4/2hn2F3sa-weyo...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 22:50:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/dev/warmrental/oauth2callback/index.php:42) in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 47
+[12-Jul-2014 22:51:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dev/public_html/dev/warmrental/oauth2callback/index.php:40) in /home/dev/public_html/dev/warmrental/oauth2callback/index.php on line 47
+[12-Jul-2014 22:52:15 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/r09S2Fpwsfb3_...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(33): Google_Client->authenticate('4/r09S2Fpwsfb3_...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 23:18:26 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/eamhiX35O9HHE...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(33): Google_Client->authenticate('4/eamhiX35O9HHE...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124
+[12-Jul-2014 23:18:31 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/dev/public_html/dev/warmrental/src/Google/Client.php(137): Google_Auth_OAuth2->authenticate('4/eamhiX35O9HHE...')
+#1 /home/dev/public_html/dev/warmrental/oauth2callback/index.php(33): Google_Client->authenticate('4/eamhiX35O9HHE...')
+#2 {main}
+  thrown in /home/dev/public_html/dev/warmrental/src/Google/Auth/OAuth2.php on line 124

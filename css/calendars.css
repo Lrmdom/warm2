@@ -1,0 +1,42 @@
+body {
+  padding-bottom: 20px;
+}
+
+.logoutBut {
+	font-size: 18px; 
+	vertical-align: middle;
+	position: absolute; 
+	top: 5px;
+	right: 5px;
+}
+
+.jumbotron {
+	background-color: #09C;	
+}
+
+.error {
+	background-color: rgb(160, 0, 22);
+}
+
+
+.login_page {
+    font-family: 'Lobster', Georgia, Times, serif;
+    font-size: 70px;
+    line-height: 100px;
+	padding: 0 0 50px 0;
+	text-align: center;
+	color: #222;
+	width: auto;
+	position: relative;
+	margin: 0 auto;
+	text-shadow: 1px 1px #797979;
+	
+}
+.login_page h1, .lato {
+	font-family:  'Lato', Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-shadow: none;
+	color: #bbb;
+	letter-spacing: 1px;
+	font-weight: normal;
+}

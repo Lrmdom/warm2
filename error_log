@@ -1,0 +1,853 @@
+[19-Jan-2015 23:13:35 Europe/London] PHP Fatal error:  Class 'mysqli' not found in /home/warmrent/public_html/google/api/api/backend/functions.php on line 32
+[19-Jan-2015 23:17:48 Europe/London] PHP Fatal error:  Class 'mysqli' not found in /home/warmrent/public_html/google/api/api/backend/functions.php on line 32
+[19-Jan-2015 23:22:31 Europe/London] PHP Fatal error:  Class 'mysqli' not found in /home/warmrent/public_html/google/api/api/backend/functions.php on line 32
+[19-Jan-2015 23:22:33 Europe/London] PHP Fatal error:  Class 'mysqli' not found in /home/warmrent/public_html/google/api/api/backend/functions.php on line 32
+[19-Jan-2015 23:22:34 Europe/London] PHP Fatal error:  Class 'mysqli' not found in /home/warmrent/public_html/google/api/api/backend/functions.php on line 32
+[19-Jan-2015 23:22:35 Europe/London] PHP Fatal error:  Class 'mysqli' not found in /home/warmrent/public_html/google/api/api/backend/functions.php on line 32
+[20-Jan-2015 00:33:47 Europe/London] PHP Notice:  Undefined index: last_sync in /home/warmrent/public_html/google/api/api/backend/functions.php on line 475
+[20-Jan-2015 00:35:06 Europe/London] PHP Notice:  Undefined index: last_sync in /home/warmrent/public_html/google/api/api/backend/functions.php on line 475
+[20-Jan-2015 00:36:30 Europe/London] PHP Notice:  Undefined index: last_sync in /home/warmrent/public_html/google/api/api/backend/functions.php on line 475
+[20-Jan-2015 01:53:45 Europe/London] PHP Notice:  Undefined index: last_sync in /home/warmrent/public_html/google/api/api/backend/functions.php on line 475
+[20-Jan-2015 01:54:12 Europe/London] PHP Notice:  Undefined index: last_sync in /home/warmrent/public_html/google/api/api/backend/functions.php on line 475
+[20-Jan-2015 12:16:23 Europe/London] PHP Notice:  Undefined index: last_sync in /home/warmrent/public_html/google/api/api/backend/functions.php on line 475
+[21-Jan-2015 18:09:29 Europe/London] PHP Notice:  Undefined index: last_sync in /home/warmrent/public_html/google/api/api/backend/functions.php on line 475
+[21-Jan-2015 18:09:49 Europe/London] PHP Notice:  Undefined index: last_sync in /home/warmrent/public_html/google/api/api/backend/functions.php on line 475
+[21-Jan-2015 19:09:08 Europe/London] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/calendar/v3/calendars//events: (404) Not Found' in /home/warmrent/public_html/google/api/src/Google/Http/REST.php:79
+Stack trace:
+#0 /home/warmrent/public_html/google/api/src/Google/Http/REST.php(44): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request))
+#1 /home/warmrent/public_html/google/api/src/Google/Client.php(501): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/warmrent/public_html/google/api/src/Google/Service/Resource.php(195): Google_Client->execute(Object(Google_Http_Request))
+#3 /home/warmrent/public_html/google/api/src/Google/Service/Calendar.php(1593): Google_Service_Resource->call('list', Array, 'Google_Service_...')
+#4 /home/warmrent/public_html/google/api/api/backend/functions.php(788): Google_Service_Calendar_Events_Resource->listEvents('')
+#5 /home/warmrent/public_html/google/api/processor.php(241): get_mod_googleEvents2('')
+#6 /home/wa in /home/warmrent/public_html/google/api/src/Google/Http/REST.php on line 79
+[22-Jan-2015 15:51:04 Europe/London] PHP Notice:  Undefined index: ql2o9805r1q25c38q4dgohg2a4@group.calendar.google.com in /home/warmrent/public_html/google/api/api/backend/functions.php on line 1086
+[22-Jan-2015 15:51:05 Europe/London] PHP Notice:  Undefined index: ql2o9805r1q25c38q4dgohg2a4@group.calendar.google.com in /home/warmrent/public_html/google/api/api/backend/functions.php on line 1086
+[22-Jan-2015 15:51:05 Europe/London] PHP Notice:  Undefined index: ql2o9805r1q25c38q4dgohg2a4@group.calendar.google.com in /home/warmrent/public_html/google/api/api/backend/functions.php on line 1086
+[22-Jan-2015 15:51:05 Europe/London] PHP Notice:  Undefined index: ql2o9805r1q25c38q4dgohg2a4@group.calendar.google.com in /home/warmrent/public_html/google/api/api/backend/functions.php on line 1086
+[18-Feb-2015 10:32:56 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 10:32:56 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 881
+[18-Feb-2015 10:35:40 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 10:35:40 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 14:47:05 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 14:47:05 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 14:49:38 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 14:49:38 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 15:45:19 Europe/London] PHP Notice:  Undefined index: tot_google in /home/warmrent/public_html/google/api/processor.php on line 91
+[18-Feb-2015 15:45:19 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 15:45:20 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 881
+[18-Feb-2015 15:53:06 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 15:53:06 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 15:54:35 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 15:54:36 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 15:58:27 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 15:58:27 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 16:01:37 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 16:01:37 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 16:02:23 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 16:02:23 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 16:03:16 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 16:03:17 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 16:10:43 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 16:10:43 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 16:11:19 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 16:11:19 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 16:18:51 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 16:18:51 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 16:19:20 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 16:19:21 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 16:20:39 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 16:20:39 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 16:21:34 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 16:21:34 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 16:22:23 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 16:22:23 Europe/London] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling DELETE https://www.googleapis.com/calendar/v3/calendars/ida8lg6i4cffgs0vrt08l2r0ss%40group.calendar.google.com/events/9k04d3cks3uenu3ssqgb95co1c: (410) Resource has been deleted' in /home/warmrent/public_html/google/api/src/Google/Http/REST.php:79
+Stack trace:
+#0 /home/warmrent/public_html/google/api/src/Google/Http/REST.php(44): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request))
+#1 /home/warmrent/public_html/google/api/src/Google/Client.php(501): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/warmrent/public_html/google/api/src/Google/Service/Resource.php(195): Google_Client->execute(Object(Google_Http_Request))
+#3 /home/warmrent/public_html/google/api/src/Google/Service/Calendar.php(1394): Google_Service_Resource->call('delete', Array)
+#4 /home/warmrent/public_html/google/api/api/backend/functions.php(1226): Google_Service_Calendar_Events_Resource->delete('ida8lg6i4cffgs0...', '9k in /home/warmrent/public_html/google/api/src/Google/Http/REST.php on line 79
+[18-Feb-2015 16:22:24 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 16:22:52 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 16:22:52 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 18:15:13 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 18:15:13 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 18:15:41 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 18:15:41 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 18:37:35 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 18:37:35 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 18:37:57 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 18:37:57 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 18:39:00 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 18:39:00 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 18:44:09 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 18:44:10 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 18:44:51 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 18:44:51 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 18:46:55 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 18:46:56 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 18:49:17 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 18:49:18 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 18:50:18 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 18:50:19 Europe/London] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling DELETE https://www.googleapis.com/calendar/v3/calendars/ida8lg6i4cffgs0vrt08l2r0ss%40group.calendar.google.com/events/3pvckqgl864c36mvqoo2a4k944: (410) Resource has been deleted' in /home/warmrent/public_html/google/api/src/Google/Http/REST.php:79
+Stack trace:
+#0 /home/warmrent/public_html/google/api/src/Google/Http/REST.php(44): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request))
+#1 /home/warmrent/public_html/google/api/src/Google/Client.php(501): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/warmrent/public_html/google/api/src/Google/Service/Resource.php(195): Google_Client->execute(Object(Google_Http_Request))
+#3 /home/warmrent/public_html/google/api/src/Google/Service/Calendar.php(1394): Google_Service_Resource->call('delete', Array)
+#4 /home/warmrent/public_html/google/api/api/backend/functions.php(1226): Google_Service_Calendar_Events_Resource->delete('ida8lg6i4cffgs0...', '3p in /home/warmrent/public_html/google/api/src/Google/Http/REST.php on line 79
+[18-Feb-2015 18:50:19 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 18:51:01 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 18:51:01 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 18:53:14 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 18:53:14 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 18:58:54 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 18:58:54 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 19:00:36 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 19:00:36 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 19:03:12 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 19:03:12 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 19:04:04 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 19:04:04 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 19:05:08 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 19:05:08 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[18-Feb-2015 19:05:58 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-Feb-2015 19:05:59 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[20-Feb-2015 11:13:55 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[20-Feb-2015 11:13:55 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[20-Feb-2015 16:08:51 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[20-Feb-2015 16:08:52 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[20-Feb-2015 18:51:57 Europe/London] PHP Notice:  Undefined index: DEBUGGINGLASTSYNC in /home/warmrent/public_html/google/api/processor.php on line 1207
+[23-Feb-2015 09:36:17 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[23-Feb-2015 09:36:18 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[23-Feb-2015 10:58:45 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[23-Feb-2015 10:58:46 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[23-Feb-2015 11:00:23 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[23-Feb-2015 11:00:24 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[23-Feb-2015 12:30:46 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[23-Feb-2015 12:30:47 Europe/London] PHP Notice:  Undefined index: mode in /home/warmrent/public_html/google/api/processor.php on line 86
+[23-Feb-2015 12:31:41 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[23-Feb-2015 12:31:41 Europe/London] PHP Notice:  Undefined index: mode in /home/warmrent/public_html/google/api/processor.php on line 86
+[23-Feb-2015 12:32:38 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[23-Feb-2015 12:32:38 Europe/London] PHP Notice:  Undefined index: mode in /home/warmrent/public_html/google/api/processor.php on line 86
+[23-Feb-2015 12:35:11 Europe/London] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling DELETE https://www.googleapis.com/calendar/v3/calendars/c43sj5eq5i02smnfm604lpj2qg%40group.calendar.google.com/events/r2kkc32q7m5itbj84der26qk9k: (403) Rate Limit Exceeded' in /home/warmrent/public_html/google/api/src/Google/Http/REST.php:79
+Stack trace:
+#0 /home/warmrent/public_html/google/api/src/Google/Http/REST.php(44): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request))
+#1 /home/warmrent/public_html/google/api/src/Google/Client.php(501): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/warmrent/public_html/google/api/src/Google/Service/Resource.php(195): Google_Client->execute(Object(Google_Http_Request))
+#3 /home/warmrent/public_html/google/api/src/Google/Service/Calendar.php(1394): Google_Service_Resource->call('delete', Array)
+#4 /home/warmrent/public_html/google/api/api/backend/functions.php(1226): Google_Service_Calendar_Events_Resource->delete('c43sj5eq5i02smn...', 'r2kkc32q in /home/warmrent/public_html/google/api/src/Google/Http/REST.php on line 79
+[23-Feb-2015 12:35:12 Europe/London] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling DELETE https://www.googleapis.com/calendar/v3/calendars/cl2sod81o4k2k5luo1kk394v1c%40group.calendar.google.com/events/o8vt7ff79fm8fmla21m7ohiluk: (403) Rate Limit Exceeded' in /home/warmrent/public_html/google/api/src/Google/Http/REST.php:79
+Stack trace:
+#0 /home/warmrent/public_html/google/api/src/Google/Http/REST.php(44): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request))
+#1 /home/warmrent/public_html/google/api/src/Google/Client.php(501): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/warmrent/public_html/google/api/src/Google/Service/Resource.php(195): Google_Client->execute(Object(Google_Http_Request))
+#3 /home/warmrent/public_html/google/api/src/Google/Service/Calendar.php(1394): Google_Service_Resource->call('delete', Array)
+#4 /home/warmrent/public_html/google/api/api/backend/functions.php(1226): Google_Service_Calendar_Events_Resource->delete('cl2sod81o4k2k5l...', 'o8vt7ff7 in /home/warmrent/public_html/google/api/src/Google/Http/REST.php on line 79
+[23-Feb-2015 12:35:46 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[23-Feb-2015 12:35:46 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[23-Feb-2015 12:39:56 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[23-Feb-2015 12:39:57 Europe/London] PHP Notice:  Undefined index: mode in /home/warmrent/public_html/google/api/processor.php on line 86
+[23-Feb-2015 12:55:03 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[23-Feb-2015 12:55:03 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[23-Feb-2015 12:55:10 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[23-Feb-2015 12:55:10 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[23-Feb-2015 12:55:10 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[23-Feb-2015 12:55:10 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[23-Feb-2015 12:55:10 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[23-Feb-2015 12:55:10 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[23-Feb-2015 12:55:10 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[23-Feb-2015 13:04:38 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[23-Feb-2015 13:04:39 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[23-Feb-2015 13:04:44 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[23-Feb-2015 13:04:44 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[23-Feb-2015 13:04:44 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[23-Feb-2015 16:26:49 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[23-Feb-2015 16:26:50 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[23-Feb-2015 16:26:54 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[23-Feb-2015 16:26:54 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[23-Feb-2015 16:26:54 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[23-Feb-2015 16:26:54 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[23-Feb-2015 16:26:54 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[23-Feb-2015 16:26:54 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[23-Feb-2015 16:26:54 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[23-Feb-2015 16:26:54 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[23-Feb-2015 16:26:54 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[24-Feb-2015 10:32:32 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[24-Feb-2015 10:32:32 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[24-Feb-2015 10:32:36 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[24-Feb-2015 10:32:36 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[24-Feb-2015 10:32:36 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[24-Feb-2015 10:32:36 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[24-Feb-2015 10:32:36 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[24-Feb-2015 10:32:36 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[24-Feb-2015 10:32:36 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[24-Feb-2015 10:32:36 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[24-Feb-2015 10:32:36 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[25-Feb-2015 11:15:05 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[25-Feb-2015 11:15:06 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[25-Feb-2015 11:15:11 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[25-Feb-2015 11:15:11 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[25-Feb-2015 11:15:11 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[25-Feb-2015 11:15:11 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[25-Feb-2015 11:15:11 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[25-Feb-2015 11:15:11 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[25-Feb-2015 11:15:11 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[25-Feb-2015 11:24:21 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[25-Feb-2015 11:24:22 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[25-Feb-2015 11:24:27 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[25-Feb-2015 11:24:27 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[25-Feb-2015 11:24:27 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[25-Feb-2015 11:24:27 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[25-Feb-2015 11:24:27 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[25-Feb-2015 11:24:27 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[25-Feb-2015 11:24:27 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[25-Feb-2015 12:33:41 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[25-Feb-2015 12:33:43 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[25-Feb-2015 12:33:47 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[25-Feb-2015 12:33:47 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[25-Feb-2015 12:33:47 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[25-Feb-2015 12:33:47 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[25-Feb-2015 12:33:47 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[25-Feb-2015 12:33:47 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[25-Feb-2015 12:33:47 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[25-Feb-2015 12:37:38 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[25-Feb-2015 12:37:41 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[25-Feb-2015 12:37:46 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[25-Feb-2015 12:37:46 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[25-Feb-2015 12:37:46 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[25-Feb-2015 12:37:46 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[25-Feb-2015 12:37:46 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[25-Feb-2015 12:37:46 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[25-Feb-2015 12:37:46 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[25-Feb-2015 12:39:23 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[25-Feb-2015 12:39:24 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[25-Feb-2015 12:39:29 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[25-Feb-2015 12:39:29 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[25-Feb-2015 12:39:29 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[25-Feb-2015 12:39:29 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[25-Feb-2015 12:39:29 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[25-Feb-2015 12:39:29 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[25-Feb-2015 12:39:29 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[25-Feb-2015 12:41:34 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[25-Feb-2015 12:41:35 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[25-Feb-2015 12:41:40 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[25-Feb-2015 12:41:40 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[25-Feb-2015 12:41:40 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[25-Feb-2015 12:41:40 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[25-Feb-2015 12:41:40 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[25-Feb-2015 12:41:40 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[25-Feb-2015 12:41:40 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[25-Feb-2015 12:45:30 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[25-Feb-2015 12:45:31 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[25-Feb-2015 12:45:35 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[25-Feb-2015 12:45:35 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[25-Feb-2015 12:45:35 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[25-Feb-2015 12:45:35 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[25-Feb-2015 12:45:35 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[25-Feb-2015 12:45:35 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[25-Feb-2015 12:45:35 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[25-Feb-2015 12:45:35 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[25-Feb-2015 12:45:35 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[25-Feb-2015 15:05:43 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[25-Feb-2015 15:05:44 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[25-Feb-2015 15:05:49 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[25-Feb-2015 15:05:49 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[25-Feb-2015 15:05:49 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[25-Feb-2015 15:05:49 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[25-Feb-2015 15:05:49 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[25-Feb-2015 15:05:49 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[25-Feb-2015 15:05:49 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[25-Feb-2015 15:05:49 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[25-Feb-2015 15:05:49 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[26-Feb-2015 18:52:26 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[26-Feb-2015 18:52:26 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[26-Feb-2015 18:52:31 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[26-Feb-2015 18:52:31 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[26-Feb-2015 18:52:31 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[26-Feb-2015 18:52:31 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[26-Feb-2015 18:52:31 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[26-Feb-2015 18:52:31 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[26-Feb-2015 18:52:31 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[26-Feb-2015 18:52:31 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[26-Feb-2015 18:52:31 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[26-Feb-2015 19:00:45 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[26-Feb-2015 19:00:46 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[26-Feb-2015 19:00:51 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[26-Feb-2015 19:00:51 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[26-Feb-2015 19:00:51 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[26-Feb-2015 19:00:51 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[26-Feb-2015 19:00:51 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[26-Feb-2015 19:00:51 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[26-Feb-2015 19:00:51 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[26-Feb-2015 19:00:51 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[26-Feb-2015 19:00:51 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[26-Feb-2015 19:09:56 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[26-Feb-2015 19:09:57 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[26-Feb-2015 19:10:01 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[26-Feb-2015 19:10:01 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[26-Feb-2015 19:10:01 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[26-Feb-2015 19:10:01 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[26-Feb-2015 19:10:01 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[26-Feb-2015 19:10:01 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[26-Feb-2015 19:10:01 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[26-Feb-2015 19:10:01 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[26-Feb-2015 19:10:01 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[26-Feb-2015 19:38:46 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[26-Feb-2015 19:38:48 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[26-Feb-2015 19:38:52 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[26-Feb-2015 19:38:52 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[26-Feb-2015 19:38:52 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[26-Feb-2015 19:38:52 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[26-Feb-2015 19:38:52 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[26-Feb-2015 19:38:52 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[26-Feb-2015 19:38:52 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[26-Feb-2015 19:38:52 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[26-Feb-2015 19:38:52 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 10:48:20 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[27-Feb-2015 10:48:21 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[27-Feb-2015 10:48:26 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[27-Feb-2015 10:48:26 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[27-Feb-2015 10:48:26 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[27-Feb-2015 10:48:26 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 10:48:26 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 10:48:26 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 10:48:26 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 10:48:26 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 10:48:26 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 10:49:34 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[27-Feb-2015 10:49:35 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[27-Feb-2015 10:49:40 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[27-Feb-2015 10:49:40 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[27-Feb-2015 10:49:40 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[27-Feb-2015 10:49:40 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 10:49:40 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 10:49:40 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 10:49:40 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 10:49:40 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 10:49:40 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 10:51:07 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[27-Feb-2015 10:51:09 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[27-Feb-2015 10:51:15 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[27-Feb-2015 10:51:15 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[27-Feb-2015 10:51:15 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[27-Feb-2015 10:51:15 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 10:51:15 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 10:51:15 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 10:51:15 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 10:51:15 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 10:51:15 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 10:54:40 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[27-Feb-2015 10:54:41 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[27-Feb-2015 10:54:47 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[27-Feb-2015 10:54:47 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[27-Feb-2015 10:54:47 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[27-Feb-2015 10:54:47 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 10:54:47 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 10:54:47 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 10:54:47 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 10:54:47 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 10:54:47 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 11:05:05 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[27-Feb-2015 11:05:06 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[27-Feb-2015 11:05:12 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[27-Feb-2015 11:05:12 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[27-Feb-2015 11:05:12 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[27-Feb-2015 11:05:12 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 11:05:12 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 11:05:12 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 11:05:12 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 11:05:12 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 11:05:12 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 11:06:49 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[27-Feb-2015 11:06:50 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[27-Feb-2015 11:06:55 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[27-Feb-2015 11:06:55 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[27-Feb-2015 11:06:55 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[27-Feb-2015 11:06:55 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 11:06:55 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 11:06:55 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 11:06:55 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 11:06:55 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 11:06:55 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 11:09:14 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[27-Feb-2015 11:09:14 Europe/London] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling DELETE https://www.googleapis.com/calendar/v3/calendars/icaet34op3oadhl6jr37dggmvo%40group.calendar.google.com/events/0ucjmj64saqf84m34vs0quscg4: (410) Resource has been deleted' in /home/warmrent/public_html/google/api/src/Google/Http/REST.php:79
+Stack trace:
+#0 /home/warmrent/public_html/google/api/src/Google/Http/REST.php(44): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request))
+#1 /home/warmrent/public_html/google/api/src/Google/Client.php(501): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/warmrent/public_html/google/api/src/Google/Service/Resource.php(195): Google_Client->execute(Object(Google_Http_Request))
+#3 /home/warmrent/public_html/google/api/src/Google/Service/Calendar.php(1394): Google_Service_Resource->call('delete', Array)
+#4 /home/warmrent/public_html/google/api/api/backend/functions.php(1226): Google_Service_Calendar_Events_Resource->delete('icaet34op3oadhl...', '0u in /home/warmrent/public_html/google/api/src/Google/Http/REST.php on line 79
+[27-Feb-2015 11:09:15 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[27-Feb-2015 11:09:20 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[27-Feb-2015 11:09:20 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 11:09:20 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 11:10:30 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[27-Feb-2015 11:10:31 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[27-Feb-2015 11:10:36 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[27-Feb-2015 11:10:36 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[27-Feb-2015 11:10:36 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[27-Feb-2015 11:10:36 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 11:10:36 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 11:10:36 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 11:10:36 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 11:10:36 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 11:10:36 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 11:22:59 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[27-Feb-2015 11:23:00 Europe/London] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling DELETE https://www.googleapis.com/calendar/v3/calendars/icaet34op3oadhl6jr37dggmvo%40group.calendar.google.com/events/i2b5hvjqpcs9hl4c95hv384rhk: (410) Resource has been deleted' in /home/warmrent/public_html/google/api/src/Google/Http/REST.php:79
+Stack trace:
+#0 /home/warmrent/public_html/google/api/src/Google/Http/REST.php(44): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request))
+#1 /home/warmrent/public_html/google/api/src/Google/Client.php(501): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/warmrent/public_html/google/api/src/Google/Service/Resource.php(195): Google_Client->execute(Object(Google_Http_Request))
+#3 /home/warmrent/public_html/google/api/src/Google/Service/Calendar.php(1394): Google_Service_Resource->call('delete', Array)
+#4 /home/warmrent/public_html/google/api/api/backend/functions.php(1226): Google_Service_Calendar_Events_Resource->delete('icaet34op3oadhl...', 'i2 in /home/warmrent/public_html/google/api/src/Google/Http/REST.php on line 79
+[27-Feb-2015 11:23:01 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[27-Feb-2015 11:23:06 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[27-Feb-2015 11:23:06 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[27-Feb-2015 11:23:06 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[27-Feb-2015 11:23:06 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 11:23:06 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 11:23:06 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 11:23:06 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 11:23:06 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 11:23:06 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 11:25:04 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[27-Feb-2015 11:25:05 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[27-Feb-2015 11:25:10 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[27-Feb-2015 11:25:10 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[27-Feb-2015 11:25:10 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[27-Feb-2015 11:25:10 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 11:25:10 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 11:25:10 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 11:25:10 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 11:25:10 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 11:25:10 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 11:30:59 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[27-Feb-2015 11:30:59 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[27-Feb-2015 11:31:05 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[27-Feb-2015 11:31:05 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[27-Feb-2015 11:31:05 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[27-Feb-2015 11:31:05 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 11:31:05 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 11:31:05 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 11:31:05 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 11:31:05 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 11:31:05 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 11:37:14 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[27-Feb-2015 11:37:15 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[27-Feb-2015 11:37:21 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[27-Feb-2015 11:37:21 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[27-Feb-2015 11:37:21 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[27-Feb-2015 11:37:21 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 11:37:21 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 11:37:21 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 11:37:21 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 11:37:21 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 11:37:21 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 11:40:55 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[27-Feb-2015 11:40:56 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[27-Feb-2015 11:41:01 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[27-Feb-2015 11:41:01 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[27-Feb-2015 11:41:01 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[27-Feb-2015 11:41:01 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 11:41:01 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[27-Feb-2015 11:41:01 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 11:41:01 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[27-Feb-2015 11:41:01 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[27-Feb-2015 11:41:01 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[07-May-2015 12:19:33 Europe/London] PHP Notice:  Undefined index: db in /home/warmrent/public_html/google/api/processor.php on line 894
+[07-May-2015 12:20:40 Europe/London] PHP Notice:  Undefined index: db in /home/warmrent/public_html/google/api/processor.php on line 894
+[07-May-2015 12:21:03 Europe/London] PHP Notice:  Undefined index: db in /home/warmrent/public_html/google/api/processor.php on line 894
+[07-May-2015 14:45:15 Europe/London] PHP Notice:  Undefined index: tot_google in /home/warmrent/public_html/google/api/processor.php on line 91
+[07-May-2015 14:47:27 Europe/London] PHP Notice:  Undefined index: tot_google in /home/warmrent/public_html/google/api/processor.php on line 91
+[11-May-2015 10:06:32 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[11-May-2015 11:06:35 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 881
+[11-May-2015 10:10:52 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[11-May-2015 11:11:01 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[11-May-2015 11:11:06 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[11-May-2015 11:11:06 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[11-May-2015 11:11:06 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[11-May-2015 11:11:06 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[11-May-2015 11:11:06 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[11-May-2015 11:11:06 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[11-May-2015 11:11:06 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[11-May-2015 10:15:28 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[11-May-2015 11:15:37 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[11-May-2015 10:16:31 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[11-May-2015 11:16:43 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[11-May-2015 11:16:47 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[11-May-2015 11:16:47 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[11-May-2015 11:16:47 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[11-May-2015 11:16:47 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[11-May-2015 11:16:47 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[11-May-2015 11:16:47 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[11-May-2015 11:16:47 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[11-May-2015 11:16:47 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[11-May-2015 11:16:47 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[11-May-2015 10:30:08 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[11-May-2015 11:30:18 Europe/London] PHP Notice:  Undefined index: mode in /home/warmrent/public_html/google/api/processor.php on line 86
+[11-May-2015 10:32:15 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[11-May-2015 11:32:22 Europe/London] PHP Notice:  Undefined index: mode in /home/warmrent/public_html/google/api/processor.php on line 86
+[11-May-2015 10:35:56 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[11-May-2015 11:36:04 Europe/London] PHP Notice:  Undefined index: mode in /home/warmrent/public_html/google/api/processor.php on line 86
+[11-May-2015 15:06:19 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[11-May-2015 16:06:26 Europe/London] PHP Notice:  Undefined index: mode in /home/warmrent/public_html/google/api/processor.php on line 86
+[11-May-2015 16:59:07 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[11-May-2015 17:59:18 Europe/London] PHP Notice:  Undefined index: mode in /home/warmrent/public_html/google/api/processor.php on line 86
+[11-May-2015 17:12:04 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[11-May-2015 18:12:20 Europe/London] PHP Notice:  Undefined index: mode in /home/warmrent/public_html/google/api/processor.php on line 86
+[11-May-2015 17:14:38 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[11-May-2015 18:14:45 Europe/London] PHP Notice:  Undefined index: mode in /home/warmrent/public_html/google/api/processor.php on line 86
+[11-May-2015 17:38:55 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[11-May-2015 18:38:58 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 881
+[11-May-2015 17:41:16 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[11-May-2015 18:41:22 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[11-May-2015 17:44:56 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[11-May-2015 18:45:07 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[11-May-2015 18:45:13 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[11-May-2015 18:45:13 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[11-May-2015 18:45:13 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[11-May-2015 18:45:13 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[11-May-2015 18:45:13 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[11-May-2015 18:45:13 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[11-May-2015 18:45:13 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[11-May-2015 17:49:50 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[11-May-2015 18:49:56 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[11-May-2015 18:50:01 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[11-May-2015 18:50:01 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[11-May-2015 18:50:01 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[11-May-2015 18:50:01 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[11-May-2015 18:50:01 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[11-May-2015 18:50:01 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[11-May-2015 18:50:01 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[11-May-2015 17:52:56 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[11-May-2015 18:53:05 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[11-May-2015 18:53:11 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[11-May-2015 18:53:11 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[11-May-2015 18:53:11 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[11-May-2015 18:53:11 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[11-May-2015 18:53:11 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[11-May-2015 18:53:11 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[11-May-2015 18:53:11 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[11-May-2015 18:02:20 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[11-May-2015 19:02:31 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[11-May-2015 19:02:36 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[11-May-2015 19:02:36 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[11-May-2015 19:02:36 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[11-May-2015 19:02:36 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[11-May-2015 19:02:36 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[11-May-2015 19:02:36 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[11-May-2015 19:02:36 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[11-May-2015 18:07:45 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[11-May-2015 19:07:54 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[11-May-2015 19:07:59 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[11-May-2015 19:07:59 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[11-May-2015 19:07:59 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[11-May-2015 19:07:59 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[11-May-2015 19:07:59 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[11-May-2015 19:07:59 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[11-May-2015 19:07:59 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 08:10:53 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 09:11:02 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[12-May-2015 09:11:07 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[12-May-2015 09:11:07 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 09:11:07 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 09:11:07 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 09:11:07 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 09:11:07 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 09:11:07 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 08:15:24 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 09:15:33 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[12-May-2015 09:15:38 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[12-May-2015 09:15:38 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 09:15:38 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 09:15:38 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 09:15:38 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 09:15:38 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 09:15:38 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 08:18:02 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 09:18:10 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[12-May-2015 09:18:15 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[12-May-2015 09:18:15 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[12-May-2015 09:18:15 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[12-May-2015 09:18:15 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 09:18:15 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 09:18:15 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 09:18:15 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 09:18:15 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 09:18:15 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 08:22:59 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 09:23:07 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[12-May-2015 09:23:12 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[12-May-2015 09:23:12 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[12-May-2015 09:23:12 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[12-May-2015 09:23:12 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 09:23:12 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 09:23:12 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 09:23:12 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 09:23:12 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 09:23:12 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 09:23:52 Europe/London] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/calendar/v3/calendars//events: (404) Not Found' in /home/warmrent/public_html/google/api/src/Google/Http/REST.php:79
+Stack trace:
+#0 /home/warmrent/public_html/google/api/src/Google/Http/REST.php(44): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request))
+#1 /home/warmrent/public_html/google/api/src/Google/Client.php(501): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/warmrent/public_html/google/api/src/Google/Service/Resource.php(195): Google_Client->execute(Object(Google_Http_Request))
+#3 /home/warmrent/public_html/google/api/src/Google/Service/Calendar.php(1593): Google_Service_Resource->call('list', Array, 'Google_Service_...')
+#4 /home/warmrent/public_html/google/api/api/backend/functions.php(788): Google_Service_Calendar_Events_Resource->listEvents('')
+#5 /home/warmrent/public_html/google/api/processor.php(241): get_mod_googleEvents2('')
+#6 /home/wa in /home/warmrent/public_html/google/api/src/Google/Http/REST.php on line 79
+[12-May-2015 09:23:59 Europe/London] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/calendar/v3/calendars//events: (404) Not Found' in /home/warmrent/public_html/google/api/src/Google/Http/REST.php:79
+Stack trace:
+#0 /home/warmrent/public_html/google/api/src/Google/Http/REST.php(44): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request))
+#1 /home/warmrent/public_html/google/api/src/Google/Client.php(501): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/warmrent/public_html/google/api/src/Google/Service/Resource.php(195): Google_Client->execute(Object(Google_Http_Request))
+#3 /home/warmrent/public_html/google/api/src/Google/Service/Calendar.php(1593): Google_Service_Resource->call('list', Array, 'Google_Service_...')
+#4 /home/warmrent/public_html/google/api/api/backend/functions.php(788): Google_Service_Calendar_Events_Resource->listEvents('')
+#5 /home/warmrent/public_html/google/api/processor.php(241): get_mod_googleEvents2('')
+#6 /home/wa in /home/warmrent/public_html/google/api/src/Google/Http/REST.php on line 79
+[12-May-2015 09:24:34 Europe/London] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/calendar/v3/calendars//events: (404) Not Found' in /home/warmrent/public_html/google/api/src/Google/Http/REST.php:79
+Stack trace:
+#0 /home/warmrent/public_html/google/api/src/Google/Http/REST.php(44): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request))
+#1 /home/warmrent/public_html/google/api/src/Google/Client.php(501): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/warmrent/public_html/google/api/src/Google/Service/Resource.php(195): Google_Client->execute(Object(Google_Http_Request))
+#3 /home/warmrent/public_html/google/api/src/Google/Service/Calendar.php(1593): Google_Service_Resource->call('list', Array, 'Google_Service_...')
+#4 /home/warmrent/public_html/google/api/api/backend/functions.php(788): Google_Service_Calendar_Events_Resource->listEvents('')
+#5 /home/warmrent/public_html/google/api/processor.php(241): get_mod_googleEvents2('')
+#6 /home/wa in /home/warmrent/public_html/google/api/src/Google/Http/REST.php on line 79
+[12-May-2015 14:50:15 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 15:50:32 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[12-May-2015 15:50:39 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[12-May-2015 15:50:39 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[12-May-2015 15:50:39 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[12-May-2015 15:50:39 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 15:50:39 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 15:50:39 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 15:50:39 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 15:50:39 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 15:50:39 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 15:09:59 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 16:10:05 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 881
+[12-May-2015 15:11:32 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 16:11:42 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[12-May-2015 15:19:21 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 16:19:29 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[12-May-2015 16:19:37 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[12-May-2015 16:19:37 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[12-May-2015 16:19:37 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[12-May-2015 16:19:37 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 16:19:37 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 16:19:37 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 16:19:37 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 16:19:37 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 16:19:37 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 15:25:17 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 16:25:30 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[12-May-2015 16:25:39 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[12-May-2015 16:25:39 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[12-May-2015 16:25:39 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[12-May-2015 16:25:39 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 16:25:39 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 16:25:39 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 16:25:39 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 16:25:39 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 16:25:39 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 15:28:03 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 16:28:17 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[12-May-2015 16:28:23 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[12-May-2015 16:28:23 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[12-May-2015 16:28:23 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[12-May-2015 16:28:23 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 16:28:23 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 16:28:23 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 16:28:23 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 16:28:23 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 16:28:23 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 15:29:37 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 16:29:46 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[12-May-2015 16:30:24 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[12-May-2015 15:32:11 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 16:32:23 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[12-May-2015 16:32:29 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[12-May-2015 16:32:29 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[12-May-2015 16:32:29 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[12-May-2015 16:32:29 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 16:32:29 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 16:32:29 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 16:32:29 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 16:32:29 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 16:32:29 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 15:36:40 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 16:36:49 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[12-May-2015 16:36:54 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[12-May-2015 16:36:54 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[12-May-2015 16:36:54 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[12-May-2015 16:36:54 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 16:36:54 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 16:36:54 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 16:36:54 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 16:36:54 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 16:36:54 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 15:41:01 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 16:41:10 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[12-May-2015 16:41:15 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[12-May-2015 16:41:15 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[12-May-2015 16:41:15 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[12-May-2015 16:41:15 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 16:41:15 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 16:41:15 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 16:41:15 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 16:41:15 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 16:41:15 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 15:42:04 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 16:42:19 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[12-May-2015 16:42:25 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[12-May-2015 16:42:25 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[12-May-2015 16:42:25 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[12-May-2015 16:42:25 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 16:42:25 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 16:42:25 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 16:42:25 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 16:42:25 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 16:42:25 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 15:45:18 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 16:45:27 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[12-May-2015 16:45:32 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[12-May-2015 16:45:32 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[12-May-2015 16:45:32 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[12-May-2015 16:45:32 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 16:45:32 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 16:45:32 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 16:45:32 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 16:45:32 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 16:45:32 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 15:49:24 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 16:49:38 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[12-May-2015 16:49:42 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[12-May-2015 16:49:42 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[12-May-2015 16:49:42 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[12-May-2015 16:49:42 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 16:49:42 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 16:49:42 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 16:49:42 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 16:49:42 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 16:49:42 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 15:51:16 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 16:51:25 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[12-May-2015 16:51:32 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[12-May-2015 16:51:32 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[12-May-2015 16:51:32 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[12-May-2015 16:51:32 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 16:51:32 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 16:51:32 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 16:51:32 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 16:51:32 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 16:51:32 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 15:55:40 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 16:55:54 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[12-May-2015 16:55:59 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[12-May-2015 16:55:59 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[12-May-2015 16:55:59 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[12-May-2015 16:55:59 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 16:55:59 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 16:55:59 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 16:55:59 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 16:55:59 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 16:55:59 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 16:00:26 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 16:00:26 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 16:00:27 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 17:00:38 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[12-May-2015 17:00:47 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[12-May-2015 17:00:47 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[12-May-2015 17:00:47 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[12-May-2015 17:00:47 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 17:00:47 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 17:00:47 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 17:00:47 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 17:00:47 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 17:00:47 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 16:09:34 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 17:09:52 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[12-May-2015 17:09:57 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[12-May-2015 17:09:57 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[12-May-2015 17:09:57 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[12-May-2015 17:09:57 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 17:09:57 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 17:09:57 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 17:09:57 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 17:09:57 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 17:09:57 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 16:13:27 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 17:13:33 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[12-May-2015 17:13:39 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[12-May-2015 17:13:39 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 17:13:39 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 17:13:39 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 17:13:39 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 17:13:39 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 17:13:39 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 16:19:20 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 17:19:30 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[12-May-2015 17:19:36 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[12-May-2015 17:19:36 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 17:19:36 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 17:19:36 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 17:19:36 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 17:19:36 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 17:19:36 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 16:24:04 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[12-May-2015 17:24:13 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[12-May-2015 17:24:20 Europe/London] PHP Notice:  Undefined index: start_date in /home/warmrent/public_html/google/api/processor.php on line 978
+[12-May-2015 17:24:20 Europe/London] PHP Notice:  Undefined index: end_date in /home/warmrent/public_html/google/api/processor.php on line 981
+[12-May-2015 17:24:20 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 986
+[12-May-2015 17:24:20 Europe/London] PHP Notice:  Undefined index: calendar_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 17:24:20 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 988
+[12-May-2015 17:24:20 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 17:24:20 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 989
+[12-May-2015 17:24:20 Europe/London] PHP Notice:  Undefined index: event_name in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 17:24:20 Europe/London] PHP Notice:  Undefined index: event_id in /home/warmrent/public_html/google/api/processor.php on line 990
+[12-May-2015 17:28:29 Europe/London] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/calendar/v3/calendars/60sueuucse4jis96sd3su23krk%40group.calendar.google.com/events: (404) Not Found' in /home/warmrent/public_html/google/api/src/Google/Http/REST.php:79
+Stack trace:
+#0 /home/warmrent/public_html/google/api/src/Google/Http/REST.php(44): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request))
+#1 /home/warmrent/public_html/google/api/src/Google/Client.php(501): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/warmrent/public_html/google/api/src/Google/Service/Resource.php(195): Google_Client->execute(Object(Google_Http_Request))
+#3 /home/warmrent/public_html/google/api/src/Google/Service/Calendar.php(1593): Google_Service_Resource->call('list', Array, 'Google_Service_...')
+#4 /home/warmrent/public_html/google/api/processor.php(172): Google_Service_Calendar_Events_Resource->listEvents('60sueuucse4jis9...')
+#5 /home/warmrent/public_html/google/a in /home/warmrent/public_html/google/api/src/Google/Http/REST.php on line 79
+[13-May-2015 12:38:01 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[13-May-2015 13:38:11 Europe/London] PHP Notice:  Undefined index: accoes in /home/warmrent/public_html/google/api/processor.php on line 949
+[13-May-2015 15:41:42 Europe/London] PHP Notice:  Undefined index: DEBUGGINGLASTSYNC in /home/warmrent/public_html/google/api/processor.php on line 1207
+[13-May-2015 15:43:01 Europe/London] PHP Notice:  Undefined index: DEBUGGINGLASTSYNC in /home/warmrent/public_html/google/api/processor.php on line 1207
+[18-May-2015 07:54:28 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-May-2015 08:54:34 Europe/London] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling DELETE https://www.googleapis.com/calendar/v3/calendars/o0m3p6m9dmdm5g5flvk13hbev4%40group.calendar.google.com/events/rl4nb2qa3pv7ddsuidk3itj990: (410) Resource has been deleted' in /home/warmrent/public_html/google/api/src/Google/Http/REST.php:79
+Stack trace:
+#0 /home/warmrent/public_html/google/api/src/Google/Http/REST.php(44): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request))
+#1 /home/warmrent/public_html/google/api/src/Google/Client.php(501): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/warmrent/public_html/google/api/src/Google/Service/Resource.php(195): Google_Client->execute(Object(Google_Http_Request))
+#3 /home/warmrent/public_html/google/api/src/Google/Service/Calendar.php(1394): Google_Service_Resource->call('delete', Array)
+#4 /home/warmrent/public_html/google/api/api/backend/functions.php(1226): Google_Service_Calendar_Events_Resource->delete('o0m3p6m9dmdm5g5...', 'rl in /home/warmrent/public_html/google/api/src/Google/Http/REST.php on line 79
+[18-May-2015 08:54:38 Europe/London] PHP Notice:  Undefined index: mode in /home/warmrent/public_html/google/api/processor.php on line 86
+[18-May-2015 09:31:11 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[18-May-2015 10:31:25 Europe/London] PHP Notice:  Undefined index: mode in /home/warmrent/public_html/google/api/processor.php on line 86
+[20-May-2015 09:03:13 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[20-May-2015 10:03:26 Europe/London] PHP Notice:  Undefined index: mode in /home/warmrent/public_html/google/api/processor.php on line 86
+[21-May-2015 11:24:24 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[21-May-2015 12:24:31 Europe/London] PHP Notice:  Undefined index: mode in /home/warmrent/public_html/google/api/processor.php on line 86
+[21-May-2015 11:43:49 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[21-May-2015 12:43:59 Europe/London] PHP Notice:  Undefined index: mode in /home/warmrent/public_html/google/api/processor.php on line 86
+[22-May-2015 16:47:56 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[22-May-2015 17:48:05 Europe/London] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling DELETE https://www.googleapis.com/calendar/v3/calendars/o0m3p6m9dmdm5g5flvk13hbev4%40group.calendar.google.com/events/d5oj1k3ki19so0k39o9mtivq2o: (410) Resource has been deleted' in /home/warmrent/public_html/google/api/src/Google/Http/REST.php:79
+Stack trace:
+#0 /home/warmrent/public_html/google/api/src/Google/Http/REST.php(44): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request))
+#1 /home/warmrent/public_html/google/api/src/Google/Client.php(501): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/warmrent/public_html/google/api/src/Google/Service/Resource.php(195): Google_Client->execute(Object(Google_Http_Request))
+#3 /home/warmrent/public_html/google/api/src/Google/Service/Calendar.php(1394): Google_Service_Resource->call('delete', Array)
+#4 /home/warmrent/public_html/google/api/api/backend/functions.php(1226): Google_Service_Calendar_Events_Resource->delete('o0m3p6m9dmdm5g5...', 'd5 in /home/warmrent/public_html/google/api/src/Google/Http/REST.php on line 79
+[22-May-2015 17:48:10 Europe/London] PHP Notice:  Undefined index: mode in /home/warmrent/public_html/google/api/processor.php on line 86
+[26-May-2015 14:04:55 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[26-May-2015 15:05:07 Europe/London] PHP Notice:  Undefined index: mode in /home/warmrent/public_html/google/api/processor.php on line 86
+[29-May-2015 16:29:02 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[29-May-2015 17:29:18 Europe/London] PHP Notice:  Undefined index: mode in /home/warmrent/public_html/google/api/processor.php on line 86
+[29-May-2015 16:30:41 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[29-May-2015 17:30:54 Europe/London] PHP Notice:  Undefined index: mode in /home/warmrent/public_html/google/api/processor.php on line 86
