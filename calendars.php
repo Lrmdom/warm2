@@ -80,7 +80,7 @@ if (isset($false_access_token)) {
             </div>
             <p class="lato"><span style="color: red;">Bem vindo <strong><?PHP echo $_SESSION['username']; ?></strong></span>,
                 existem neste momento <span style="color: red;"> <?PHP echo $_SESSION['num_props']; ?> </span>propriedades
-                registadas com calendários atribuidos. Clique no botão seguinte para entrar na central de sincronização.</p>
+                registadas com calendários atribuidos.</p>
 
 
         </div>

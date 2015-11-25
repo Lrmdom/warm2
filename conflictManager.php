@@ -191,7 +191,7 @@ foreach ($gcals as $gcal) {
                     $sql1 = "insert into vrs6_bookings (listing_id,event_id,event_name,start_date,end_date) values(" . $values . ")";
                     $db_conn->query($sql1);
                 }else{
-                    array_push($conflicts, $r);
+                    //array_push($conflicts, $r);
 
                 }
             }

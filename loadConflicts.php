@@ -25,7 +25,7 @@
         "pageLength": 50,
         data: <?php echo $_POST['conflicts'] ?>,
         columns: [
-            {data: 'calendar'},
+            {data: 'id'},
             {data: 'listing'},
             {data: 'booking'},
             {data: 'conflict'},
