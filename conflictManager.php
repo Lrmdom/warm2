@@ -117,13 +117,8 @@ foreach ($gcals as $gcal) {
                     if (sizeof($evsToUpdate)>0){
                         foreach($evsToUpdate as $evt){
 
-
-
-
                             $sql1 = "UPDATE  vrs6_bookings set admin_status=0 where booking_id=" . $row['booking_id'];
                             $db_conn->query($sql1);
-
-
 
                         }
                     }
@@ -131,7 +126,7 @@ foreach ($gcals as $gcal) {
 
                 //upload booking if not overbooking and if not uploaded yet
 
-                if (!empty($row) && ($row['event_id'] === NULL || $row['event_id'] === '') && $row['admin_status'] === 1) {
+                if (!empty($row) && $row['event_id'] === null  && $row['admin_status'] == 1) {
                     $start = str_replace(" 00:00:00", "", $row['start_date']);
                     $final = str_replace(" 00:00:00", "", $row['end_date']);
 
@@ -159,22 +154,24 @@ foreach ($gcals as $gcal) {
                         $e['start'] = $returnedEvent['modelData']['start']['date'];
                         $e['end'] = $returnedEvent['modelData']['end']['date'];
 
-
-                        array_push($calEvents, $e);
+                        $sql1 = "UPDATE  vrs6_bookings set event_name='".$e['summary']."', event_id ='".$e['id']."' where booking_id=" . $row['booking_id'];
+                        $db_conn->query($sql1);
+                        //array_push($calEvents, $e);
+                        array_push($evs, $e);
                     } else {
                         $conflict = array('calendar' => $gcal['calendar_id'], 'listing' => $row['listing_id'], 'booking' => $row['booking_id'], 'conflict' => "<span class='red'>overbooking :</span>" . $response['date']);
 
                         array_push($conflicts, $conflict);
                     }
                     //delete event from calendar , update db
-                } elseif (isset($row['admin_status']) && $row['admin_status'] === 0 && ($row['event_id'] !== NULL || $row['event_id'] !== '')) {
+                } /*elseif (isset($row['admin_status']) && $row['admin_status'] == 0 && $row['event_id'] !== null ) {
                     $event = new Google_Service_Calendar_Event(array(
                         'id' => $row['event_id']
                     ));
                     $service->events->delete($gcal['calendar_id'], $event);
                     $sql1 = "UPDATE  vrs6_bookings set event_name=NULL, event_id =NULL where booking_id=" . $res['row']['booking_id'];
                     $db_conn->query($sql1);
-                }
+                }*/
 
             }
         }
@@ -185,14 +182,14 @@ foreach ($gcals as $gcal) {
                 $start = str_replace(" 00:00:00", "", $event['start']);
                 $final = str_replace(" 00:00:00", "", $event['end']);
 
-                $r = verifyConflicts($evs, $event['start'], $event['end']);
+                $r = verifyConflictsCal($evs, $event['start'], $event['end'],$event['id']);
                 if ($r === 1) {
-                    $values = "'" . $gcal['listing_id'] . "','" . $event['id'] . "','" . $event['summary'] . "','" . $start . "','" . $final . "'";
-                    $sql1 = "insert into vrs6_bookings (listing_id,event_id,event_name,start_date,end_date) values(" . $values . ")";
+                    $values = "'" . $gcal['listing_id'] . "','" . $event['id'] . "','" . $event['summary'] . "','" . $start . "','" . $final . "',true";
+                    $sql1 = "insert into vrs6_bookings (listing_id,event_id,event_name,start_date,end_date,admin_status) values(" . $values . ")";
                     $db_conn->query($sql1);
                 }else{
-                    //array_push($conflicts, $r);
-
+                    $conflict = array('calendar' => $gcal['calendar_id'], 'listing' => $gcal['listing_id'], 'booking' => $event['id'], 'conflict' => "<span class='red'>overbooking :</span>" . $r['date']);
+                    array_push($conflicts, $conflict);
                 }
             }
         }

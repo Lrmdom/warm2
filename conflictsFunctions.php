@@ -28,6 +28,27 @@ function verifyConflicts($events, $start, $end)
     return 1;
 }
 
+function verifyConflictsCal($events, $start, $end,$id)
+{
+    foreach ($events as $event) {
+        $dtLoop = date('Y/m/j', strtotime("+1 day", strtotime($start)));
+        $dtEnd = date(' Y/m/j ', strtotime("-1 day", strtotime($end)));
+
+        While (strtotime($dtLoop) <= strtotime($dtEnd)) {
+            $inic = date('Y/m/j', strtotime($event['start']));
+            $fim = date('Y/m/j', strtotime($event['end']));
+            While (strtotime($inic) <= strtotime($fim)) {
+                if ($inic == $dtLoop && $id !== $event['id']) {
+                    $res = array('date' => $dtLoop, 'eventId' => $event['id'], 'event' => $event);
+                    return $res;
+                }
+                $inic = date('Y/m/j', strtotime("+1 day", strtotime($inic)));
+            }
+            $dtLoop = date(' Y/m/j ', strtotime("+1 day", strtotime($dtLoop)));
+        }
+    }
+    return 1;
+}
 function verifyMismatchDates($cal, $events, $row)
 {
 
