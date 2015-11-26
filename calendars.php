@@ -291,6 +291,7 @@ if (isset($false_access_token)) {
                 var conflicts = res;
                 if (Object.keys(conflicts).length > 0) {
                     $.post('loadConflicts.php', {conflicts: conflicts}, function (data) {
+                        $('#dialog').html("");
                         $('#dialog').html(data).dialog("open");
 
                     });
