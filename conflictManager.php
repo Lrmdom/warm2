@@ -78,13 +78,13 @@ foreach ($gcals as $gcal) {
 
                 //delete event if admin_status = 0
 
-                if($row['event_id']!=='DELETED FROM CALENDAR' && $row['admin_status']==0){
+                if($row['event_id']!=='EVENT DELETED IN CALENDAR' && $row['admin_status']==0){
                     $event = new Google_Service_Calendar_Event(array(
                         'id' => $row['event_id']
                     ));
                     $service->events->delete($gcal['calendar_id'], $row['event_id']);
 
-                    $sql1 = "UPDATE  vrs6_bookings set  event_id ='DELETED FROM CALENDAR' where booking_id=" . $row['booking_id'];
+                    $sql1 = "UPDATE  vrs6_bookings set  event_id ='EVENT DELETED IN CALENDAR' where booking_id=" . $row['booking_id'];
                     $db_conn->query($sql1);
                     $rowStatus='deleted';
                 }
@@ -122,7 +122,7 @@ foreach ($gcals as $gcal) {
 
                 if ($calEvents) {
                     foreach ($calEvents as $key => $event) {
-                        /*if (isset($row['event_id']) && $row['event_id'] !== null) {
+                        /*if (isset($row['event_id']) && $row['event_id'] !== 'EVENT DELETED IN CALENDAR') {
                             $check=1;
                             if(in_array($row['event_id'], $event)){
                                 $check=1;
@@ -143,7 +143,7 @@ foreach ($gcals as $gcal) {
 
                if (sizeof($evsToUpdate) > 0) {
                     foreach ($evsToUpdate as $evt) {
-                        $sql1 = "UPDATE  vrs6_bookings set admin_status=0,event_id='deleted from cal' where booking_id=" . $evt['id'];
+                        $sql1 = "UPDATE  vrs6_bookings set admin_status=0,event_id='EVENT DELETED IN CALENDAR' where booking_id=" . $evt['id'];
                         $db_conn->query($sql1);
                     }
                 }
