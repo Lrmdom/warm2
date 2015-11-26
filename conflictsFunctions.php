@@ -28,7 +28,7 @@ function verifyConflicts($events, $start, $end)
     return 1;
 }
 
-function verifyConflictsCal($events, $start, $end,$id)
+function verifyConflictsCal($events, $start, $end, $id)
 {
     foreach ($events as $event) {
         $dtLoop = date('Y/m/j', strtotime("+1 day", strtotime($start)));
@@ -49,6 +49,7 @@ function verifyConflictsCal($events, $start, $end,$id)
     }
     return 1;
 }
+
 function verifyMismatchDates($cal, $events, $row)
 {
 
@@ -79,8 +80,15 @@ function saveEventToDb($row, $event)
     } else {
         return $event;
     }
+}
 
-
+function checkDeletedEvents($ev, $row)
+{
+    if (in_array($row['event_id'], $ev)) {
+        return 1;
+    } else {
+        return 0;
+        }
 }
 
 
