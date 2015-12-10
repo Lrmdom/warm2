@@ -71,9 +71,9 @@ if (isset($false_access_token)) {
 <div class="container">
     <div class="jumbotron">
         <div class="container">
-            <button name="logout" class="btn btn-danger logoutBut" id="logoutbut"><span
+            <a href="api/logout.php" name="logout" class="btn btn-danger logoutBut" id="logoutbut"><span
                     class="glyphicon glyphicon-log-out"></span> Logout
-            </button>
+            </a>
             <div class="login_page">
                 Warmrental Google Sync
                 <h1>Warmrental.com</h1>
