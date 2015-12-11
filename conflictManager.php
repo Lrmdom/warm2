@@ -82,7 +82,13 @@ foreach ($gcals as $gcal) {
                     $event = new Google_Service_Calendar_Event(array(
                         'id' => $row['event_id']
                     ));
-                    $service->events->delete($gcal['calendar_id'], $row['event_id']);
+                    $status = $service->events->get($gcal['calendar_id'], $row['event_id']);
+                    $yo=$status->getStatus();
+                    if($yo !== 'cancelled'){
+                        $service->events->delete($gcal['calendar_id'], $row['event_id']);
+
+                    }
+
 
                     $sql1 = "UPDATE  vrs6_bookings set  event_id ='EVENT DELETED IN CALENDAR' where booking_id=" . $row['booking_id'];
                     $db_conn->query($sql1);
@@ -127,12 +133,12 @@ foreach ($gcals as $gcal) {
                             if(!in_array($event['id'],$row)){
 
                                 $status = $service->events->get($gcal['calendar_id'], $row['event_id']);
-                                $yo=$status->status;
+                                $yo=$status->getStatus();
 
                                 if($yo == 'cancelled'){
                                     $rowToUpdate=array();
                                     $rowToUpdate['id'] =  $row['booking_id'];
-
+                                    $rowToUpdate['event_id'] =  $row['event_id'];
                                     array_push($evsToUpdate, $rowToUpdate);
 
                                 }
